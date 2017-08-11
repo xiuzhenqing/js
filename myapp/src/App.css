@@ -1,0 +1,44 @@
+ *{
+  margin:0;
+  padding:0;
+}
+ body{
+  width:100vw;
+  overflow-x: hidden;
+}
+li{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+.left{
+  float:left;
+  content:"";
+  display:block;
+}
+.right{
+  float:right;
+  content:"";
+  display:block;
+}
+.clear:after{
+ clear:both;
+  content:"";
+  display:block;
+}
+.box{
+  width:100%;
+  position:relative;
+}
+p{
+  margin:0 20px;
+  width:100px;
+  height:20px;
+}
+.none{
+  display:none;
+}
+.opa{
+  opacity:0;
+}
